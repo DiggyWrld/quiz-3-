@@ -1,0 +1,44 @@
+import random
+
+def MonsterGen(biome):
+    
+    if biome == 'd':
+        chance = random.randrange(1,101)
+        if chance <= 20:
+            print(", A Husky joins the battle")
+        elif chance <=50:
+            print("God Damn, a Spider")
+        else:
+            print("It do be a Skelly bones")
+    elif biome == 'f':
+        chance = random.randrange(1,101)
+        if chance <= 30:
+            else:
+            print("Its pretty peaceful here....")
+
+HorribleWord = "SNURFLE"
+x = 21
+w = 3
+
+
+while w != 24:
+     print(w)
+     w+=3
+
+x = 0
+print("How many Horribles you want?")
+choice = int(input())
+    
+while x != choice:
+    print(Word)
+    x+=1
+
+
+
+print("What biome would you like to explore?")
+it = 'a'
+while it != 'q':
+    print("'f' For Plains Field or 'd' for Desert ")
+    it = input()
+    if it != 'q':
+        MonsterGen(it)
